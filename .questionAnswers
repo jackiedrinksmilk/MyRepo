@@ -1,0 +1,51 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+1.	What is Git and what does it do?
+    a.	Git is a version control software.
+    This means that as you update and change a project, each version can be saved on Git.
+    This way a user can see all the versions of their software and use these differing versions as needed to debug.
+    Git is an open-source software which means it is free to use and edit.
+
+2.	How is Github different from Git?
+    a.	Github interacts with Git and is a collaboration website that hosts Git repositories.
+
+3.	What is a branch? Why is it useful?
+    a.	In a repository, every bit of code that is produced in this repository is on a master branch.
+    Branching off this master branch is necessary because creating changes directly
+    on the master branch is unfavorable. Branching creates a replica of the space you are branching
+    from to make editing code safer and more forgiving.
+
+4.	What is a commit?
+    a.	A commit is when a change or a set of changes that a programmer makes to a project is saved and
+    uploaded/pushed to the Github repository. This shows the project at the time of the commit.
+
+5.	What is a pull request?
+    a.	When commits are made, a pull request compares the changes between the original branch
+    and the new code in the commit. Once these are reviewed and the differences are highlighted,
+    the changes can be merged with the original branch of code.
+
+6.	What is a fork? How would you find this to be useful?
+    a.	A fork is when a person making a program makes a copy a repository under their personal GitHub account.
+    This allows for edits to be made on code that a user does not have permission to edit.
+    The user can then put in a pull request to merge this fork with the original code if the original
+    programmer sees fit. This is the functioning of open-source collaboration.
+
+7.	How do you clone a repository?
+    a.	A clone of a repository is made when a user wants to develop a project locally,
+    or not within the GitHub online network (whether it be on the application or a browser).
+    When a clone is made, the entire repository and all the code within it is copied and downloaded to
+    a local network such as a personal computer. All the changes made to this are only saved to the
+    local network and to reintroduce these changes to the online GitHub repository,
+    the changes would have to go through the commit and pull request process.
+    To clone a repository, it can be done directly from GitHub, or you can use the following command
+    in the command line:
+            git clone https://github.com/username/repository
+    where the link is the link to the repository that the user wishes to clone.
+
+8.	How do you resolve merge conflicts?
+    a.	A merge conflict is when there is a change in the same file on the same line in the two branches that are
+    to be merged. To solve this the user can first run git status to know which file(s) these conflicts are
+    occurring on. The file will then show with markers where the merge conflict is.
+    To resolve this, the user must pick between the two versions that will be pushed to the branches
+    that are being merged.
